@@ -1,0 +1,4 @@
+name: countPhoto
+methods:
+  - POST
+tags: []

@@ -1,0 +1,4 @@
+name: getAllSci
+methods:
+  - POST
+tags: []

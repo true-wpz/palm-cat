@@ -1,0 +1,4 @@
+name: deployTest
+methods:
+  - POST
+tags: []

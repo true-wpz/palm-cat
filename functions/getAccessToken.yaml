@@ -1,0 +1,4 @@
+name: getAccessToken
+methods:
+  - POST
+tags: []

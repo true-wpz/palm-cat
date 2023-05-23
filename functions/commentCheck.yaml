@@ -1,0 +1,4 @@
+name: commentCheck
+methods:
+  - POST
+tags: []

@@ -1,0 +1,4 @@
+name: timeTriggers
+methods:
+  - POST
+tags: []

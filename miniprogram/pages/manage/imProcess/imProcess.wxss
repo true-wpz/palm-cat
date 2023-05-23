@@ -1,0 +1,64 @@
+page {
+  width: 750rpx;
+  padding: 30rpx 30rpx;
+  box-sizing: border-box;
+}
+
+button {
+  width: 45%;
+  display: inline-block;
+  font-size: 35rpx;
+  box-sizing: border-box;
+}
+
+button.primary {
+  background-color: var(--color-primary);
+}
+
+button.long {
+  margin: 20rpx 0 0 0;
+  width: 100%;
+}
+
+button.short {
+  width: 12%;
+  height: 100%;
+  margin: 2%;
+  padding: 2%;
+  font-size: 24rpx;
+  line-height: 24rpx;
+}
+
+.image-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-block {
+  width: 220rpx;
+}
+
+.image-block .title {
+  width: 220rpx;
+  text-align: center;
+  font-weight: bold;
+  margin: 30rpx 0 10rpx 0;
+}
+
+.image-block image {
+  width: 220rpx;
+  height: 220rpx;
+  background-color: linen;
+}
+
+.image-block .no-image {
+  width: 220rpx;
+  height: 220rpx;
+  background-color: var(--color-gray-light);
+}
+
+/* 文字说明 */
+.info-block {
+  color: var(--color-black-min);
+  font-size: 22rpx;
+}
