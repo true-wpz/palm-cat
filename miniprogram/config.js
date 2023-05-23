@@ -11,30 +11,30 @@ module.exports = {
     // laf后台服务地址（开发环境），一般和上面laf_url一致就好
     laf_dev_url: 'https://fqp8kb.laf.run',
     // 使用私有的腾讯云cos存储，需要url签名
-    use_private_tencent_cos: false,
+    use_private_tencent_cos: true,
 
     // 科普页图片
     science_imgs: [
-        "https://oss.laf.run/fqp8kb-cat/系统/科普1.png",
-        "https://oss.laf.run/fqp8kb-cat/系统/科普2.png",
-        "https://oss.laf.run/fqp8kb-cat/系统/科普3.png",
-        "https://oss.laf.run/fqp8kb-cat/系统/科普4.png",
-        "https://oss.laf.run/fqp8kb-cat/系统/科普5.png"
+        "https://cos.ap-hongkong.myqcloud.com/minicat-1312882524/系统/科普1.png",
+        "https://cos.ap-hongkong.myqcloud.com/minicat-1312882524/系统/科普2.png",
+        "https://cos.ap-hongkong.myqcloud.com/minicat-1312882524/系统/科普3.png",
+        "https://cos.ap-hongkong.myqcloud.com/minicat-1312882524/系统/科普4.png",
+        "https://cos.ap-hongkong.myqcloud.com/minicat-1312882524/系统/科普5.png"
     ],
 
     // 赞赏码图片
-    reward_img: "https://oss.laf.run/fqp8kb-cat/系统/赞赏码.jpg",
+    reward_img: "https://cos.ap-hongkong.myqcloud.com/minicat-1312882524/系统/赞赏码.png",
     // 新猫问卷图片
-    feedback_wj_img: "https://oss.laf.run/fqp8kb-cat/系统/新猫问卷.png",
+    feedback_wj_img: "https://cos.ap-hongkong.myqcloud.com/minicat-1312882524/系统/新猫问卷.png",
     // 小程序菊花码图片
-    mpcode_img: "https://oss.laf.run/fqp8kb-cat/系统/菊花码.jpg",
+    mpcode_img: "https://cos.ap-hongkong.myqcloud.com/minicat-1312882524/系统/菊花码.png",
 
     // 首页banner广告
-    ad_genealogy_banner: "adunit-9a7dcb84fe2c4db1",
+    ad_genealogy_banner: "",
     // 识猫banner广告
-    ad_recognize_banner: "adunit-1b69cda0d1b8c703",
+    ad_recognize_banner: "----",
     // 投喂video广告
-    ad_reward_video: "adunit-eac4513e7b770f93",
+    ad_reward_video: "---",
 
     // 猫猫领养状态字符串，对应数据库cat.adopt中的数字下标
     cat_status_adopt: ["未领养", "已领养", "寻找领养中"],
@@ -61,7 +61,7 @@ module.exports = {
         // 关于页，pages/info/info
         info: {
             share_tip: "关于",
-            slogan: "拍照记录小区内猫猫的成长轨迹",
+            slogan: "拍照记录小区内流浪猫的生活",
         },
         // 猫猫详情页，pages/genealogy/detailCat/detailCat
         detail_cat: {
