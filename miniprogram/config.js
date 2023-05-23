@@ -5,7 +5,7 @@
 
 module.exports = {
     // 版本号
-    app_version: "v1.10.1",
+    app_version: "v0.2",
     // laf后台服务地址
     laf_url: 'https://fqp8kb.laf.run',
     // laf后台服务地址（开发环境），一般和上面laf_url一致就好
@@ -44,10 +44,10 @@ module.exports = {
     // 各种文字内容
     text: {
         // 小程序名
-        app_name: "中大猫谱",
+        app_name: "棕榈喵",
         // 首页，pages/genealogy/genealogy
         genealogy: {
-            share_tip: "发现身边校园猫咪",
+            share_tip: "发现身边的流浪猫",
             search_tip: "搜索猫猫名字或昵称",
             filter_tip: "点此进行筛选",
             new_photo_tip: "有新相片！",
@@ -61,7 +61,7 @@ module.exports = {
         // 关于页，pages/info/info
         info: {
             share_tip: "关于",
-            slogan: "拍照记录校园内猫猫的成长轨迹",
+            slogan: "拍照记录小区内猫猫的成长轨迹",
         },
         // 猫猫详情页，pages/genealogy/detailCat/detailCat
         detail_cat: {
