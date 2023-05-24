@@ -37,7 +37,7 @@
       <view class='title'>统一设置</view>
       <view class='label'>拍摄日期：</view>
       <view>
-        <picker mode='date' fields='month' bindchange='setAllDate' start='{{birth_date || "2008-01-01"}}' end='{{now_date}}'>{{set_all.shooting_date? set_all.shooting_date: '选择拍摄日期'}}</picker>
+        <picker mode='date' bindchange='setAllDate' start='{{birth_date || "2008-01-01"}}' end='{{now_date}}'>{{set_all.shooting_date? set_all.shooting_date: '选择拍摄日期'}}</picker>
       </view>
       <view class='label'>摄影师：</view>
       <view>
@@ -63,11 +63,14 @@
 
       <view class='label'>拍摄日期：</view>
       <view>
-        <picker mode='date' fields='month' bindchange='pickDate' start='{{birth_date || "2008-01-01"}}' end='{{now_date}}' data-index='{{index}}'>{{item.shooting_date? item.shooting_date: '选择拍摄日期'}}</picker>
+        <picker mode='date' bindchange='pickDate' start='{{birth_date || "2008-01-01"}}' end='{{now_date}}' data-index='{{index}}'>{{item.shooting_date? item.shooting_date: '选择拍摄日期'}}</picker>
       </view>
       <view class='label'>摄影师：</view>
       <view>
         <input type='text' placeholder='（选填）默认为上传者' bindinput='inputPher' data-index='{{index}}' value='{{item.pher}}'></input>
+      </view>
+      <view>
+        <input type='text' placeholder='照片描述' bindinput='inputDesc' data-index='{{index}}' value='{{item.photo_description}}'></input>
       </view>
         <button bindtap='removeOne' data-index='{{index}}'>移除</button>
         <button class='primary' disabled='{{item.shooting_date && item.file.path && !uploading? false: true}}' data-index='{{index}}' bindtap='uploadSingleClick'>确定上传</button>

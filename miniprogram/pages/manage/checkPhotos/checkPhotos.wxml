@@ -20,6 +20,7 @@
         <view class='label cat'><text bindtap="toCatDetail" data-cat_id="{{item.cat._id}}">{{item.cat.name}}（{{item.cat.campus}}）</text></view>
         <view class='label user'>上传者：{{item.userInfo.nickName}}</view>
         <view class='label user'>摄影师：{{item.photographer || item.userInfo.nickName}}</view>
+        <view class='label user'>照片标题：{{item.photo_description}}</view>
         <view class='label user shotTime'>拍摄时间：{{item.shooting_date}}</view>
         <view wx:if='{{isHEIC.isHEIC(item.photo_id)}}' class='label tip'>* 照片格式为.HEIC，可能会显示不出来</view>
         <view class="buttons">

@@ -77,7 +77,7 @@ module.exports = {
             label_mother: "妈妈",
             label_friend: "好友",
             label_character: "性格及特点",
-            label_tutorial: "撸猫指南",
+            label_tutorial: "生活经历",
             label_tutorial_empty: "暂时还没有",
             label_comment_board: "留言板",
             sterilized_true: "已绝育",

@@ -141,6 +141,7 @@
         <view wx:if='{{albumBlock.age[0] >= 0 && albumBlock.age[1] >= 0}}' class='age'>{{albumBlock.age[0]}}岁{{albumBlock.age[1]}}个月</view>
       </view>
       <view class="album-image" wx:for="{{albumBlock.photos}}" wx:key="_id" bindtap='bindTapPhoto' data-index="{{item.index}}" data-kind='album'>
+        <text class="photo-description">{{ item.photo_description ? item.photo_description : "这张照片没有介绍哦～" }}</text>
         <image mode='aspectFill' class="alb-image" lazy-load='true' src='{{item.photo_compressed || item.photo_id}}'></image>
         <item class="like-count" wx:if="{{item.like_count}}">
           <image class="like-logo small" mode='aspectFill' src="/pages/public/images/button/heart.png"></image>
