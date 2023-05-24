@@ -137,7 +137,7 @@
     <view wx:for="{{album}}" class='album-block' wx:key='date' wx:for-item="albumBlock">
       <view class='header'>
         <image src='/pages/public/images/card/card/time.png'></image>
-        <view class='time'>{{albumBlock.date[0]}}年{{albumBlock.date[1]}}月</view>
+        <view class='time'>{{albumBlock.date[0]}}年{{albumBlock.date[1]}}月{{albumBlock.date[2]}}日</view>
         <view wx:if='{{albumBlock.age[0] >= 0 && albumBlock.age[1] >= 0}}' class='age'>{{albumBlock.age[0]}}岁{{albumBlock.age[1]}}个月</view>
       </view>
       <view class="album-image" wx:for="{{albumBlock.photos}}" wx:key="_id" bindtap='bindTapPhoto' data-index="{{item.index}}" data-kind='album'>
