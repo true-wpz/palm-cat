@@ -291,6 +291,18 @@ Page({
         });
     },
 
+    setAllDesc(e) {
+        const photo_description = e.detail.value;
+        var photos = this.data.photos;
+        for (var ph of photos) {
+            ph.photo_description = photo_description;
+        }
+        this.setData({
+            "set_all.photo_description": photo_description,
+            photos: photos,
+        });
+    },
+
     // 移除其中一个
     removeOne(e) {
         const index = e.currentTarget.dataset.index;
