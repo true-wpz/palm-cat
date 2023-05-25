@@ -1,5 +1,5 @@
 <view class='block'>
-  <view class='title'>开发团队</view>
+  <view class='title'>相关团队</view>
   <view class='desc'>
     <text>{{text_cfg.dev_team.team}}</text>
   </view>
