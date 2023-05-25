@@ -89,7 +89,7 @@ module.exports = {
             feedback_tip: "猫猫信息纠错、照片归属权、功能改进等~",
             input_length_tip: "字数",
             contract_title: "你的联系方式",
-            contract_tip: "（选填）微信/QQ/邮箱",
+            contract_tip: "同意服务条款后方可提交",
             submit_button: "提交反馈",
             submit_tip: "*反馈内容仅后台工作人员可见",
         },
