@@ -20,7 +20,7 @@
     <input type='text' value='{{cat.characteristics}}' bindinput="inputText" data-key='characteristics'></input>
 
     <view class='label tutorial'>{{text_cfg.detail_cat.label_tutorial}}：</view>
-    <textarea type='text' value='{{cat.tutorial}}' bindinput="inputText" data-key='tutorial'></textarea>
+    <textarea type='text' maxlength='2000' value='{{cat.tutorial}}' bindinput="inputText" data-key='tutorial'></textarea>
 
     <view class='label habit'>性格：</view>
     <input type='text' value='{{cat.habit}}' bindinput="inputText" data-key='habit'></input>

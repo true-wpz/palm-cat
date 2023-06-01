@@ -197,6 +197,7 @@ swiper-item image {
     line-height: 40rpx;
     padding-bottom: 5rpx;
     letter-spacing: 2rpx;
+    white-space: pre-wrap;
 }
 
 .details .item.long {
